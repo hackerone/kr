@@ -1,0 +1,1338 @@
+2014/03/22 15:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://kr.dev/
+---
+2014/03/22 15:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://kr.dev/
+---
+2014/03/22 15:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://kr.dev/
+---
+2014/03/22 15:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page&view=about".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('page&view=about')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('page&view=about')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page&view=...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/page&view=about
+---
+2014/03/22 15:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://kr.dev/site/page&view=about
+---
+2014/03/22 15:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://kr.dev/site/page&view=about
+---
+2014/03/22 15:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://kr.dev/site/page&view=about
+---
+2014/03/22 15:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://kr.dev/site/page?view=about
+---
+2014/03/22 15:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://kr.dev/site/page?view=about
+---
+2014/03/22 15:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://kr.dev/site/page?view=about
+---
+2014/03/22 15:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/page".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/page?view=about
+---
+2014/03/22 15:28:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gii
+---
+2014/03/22 15:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('css')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/css/bootst...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/css/bootstrap.min.css
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('css')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/css/bootst...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/css/bootstrap-theme.min.css
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('js')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/js/vendor/...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/js/vendor/bootstrap.min.js
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('css')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/css/main.c...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/css/main.css
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('js')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/js/main.js')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/js/main.js
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('css')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/css/bootst...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/css/bootstrap.min.css
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('css')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/css/bootst...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/css/bootstrap-theme.min.css
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('css')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/css/main.c...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/css/main.css
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('js')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/js/main.js')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/js/main.js
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('js')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/js/vendor/...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/js/vendor/bootstrap.min.js
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('js')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/js/vendor/...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/js/vendor/bootstrap.min.js
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('js')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/js/main.js')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/js/main.js
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/22 15:38:09 [error] [php] Object of class CMenu could not be converted to string (/Users/ganesh/projects/kr/web/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(784): UserController->renderFile()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(17): UserController->render()
+#2 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionLogin()
+#3 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#5 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#6 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#7 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/login
+in /Users/ganesh/projects/kr/web/protected/views/layouts/main.php (51)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (17)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/22 15:42:30 [error] [php] Array to string conversion (/Users/ganesh/projects/framework/web/CWebApplication.php:318)
+Stack trace:
+#0 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#1 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/22 15:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/login
+---
+2014/03/22 15:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/login
+---
+2014/03/22 15:50:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /Users/ganesh/projects/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Users/ganesh/projects/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Users/ganesh/projects/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Users/ganesh/projects/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /Users/ganesh/projects/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /Users/ganesh/projects/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /Users/ganesh/projects/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /Users/ganesh/projects/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/gii/model/index
+HTTP_REFERER=http://kr.dev/gii
+---
+2014/03/22 15:50:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /Users/ganesh/projects/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Users/ganesh/projects/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Users/ganesh/projects/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Users/ganesh/projects/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /Users/ganesh/projects/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /Users/ganesh/projects/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /Users/ganesh/projects/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /Users/ganesh/projects/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/gii/model/index
+HTTP_REFERER=http://kr.dev/gii
+---
+2014/03/22 15:54:30 [error] [php] require(/Users/ganesh/projects/kr/web/protected/forms/user.php): failed to open stream: No such file or directory (/Users/ganesh/projects/framework/web/form/CFormElement.php:120)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CForm.php(170): CForm->__construct()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(9): CForm->__construct()
+#2 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionEdit()
+#3 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#5 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#6 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#7 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/edit
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (9)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/22 16:12:31 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "setFlash".' in /Users/ganesh/projects/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(15): CComponent->__call('setFlash', Array)
+#1 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(15): CWebApplication->setFlash('success', 'Saved successfu...')
+#2 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionEdit()
+#3 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('edit')
+#7 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/edit')
+#8 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/user/edit
+HTTP_REFERER=http://kr.dev/user/edit
+---
+2014/03/23 12:03:10 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in /Users/ganesh/projects/framework/web/CController.php:878
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(46): CController->render('index', Array)
+#2 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#3 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('')
+#7 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#8 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/user
+---
+2014/03/23 12:07:28 [error] [php] Undefined variable: data (/Users/ganesh/projects/kr/web/protected/views/user/index.php:19)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(869): UserController->renderFile()
+#1 /Users/ganesh/projects/framework/web/CController.php(782): UserController->renderPartial()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(46): UserController->render()
+#3 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#6 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#8 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user
+in /Users/ganesh/projects/kr/web/protected/views/user/index.php (19)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (46)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/23 12:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/delete')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/delete/1
+HTTP_REFERER=http://kr.dev/user
+---
+2014/03/23 12:20:11 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "passwordChanged".' in /Users/ganesh/projects/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(227): CComponent->__call('passwordChanged', Array)
+#1 /Users/ganesh/projects/kr/web/protected/models/User.php(103): CActiveRecord->__call('passwordChanged', Array)
+#2 /Users/ganesh/projects/kr/web/protected/models/User.php(103): User->passwordChanged()
+#3 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1119): User->beforeSave()
+#4 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(806): CActiveRecord->update(NULL)
+#5 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(35): CActiveRecord->save()
+#6 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(16): UserController->_renderForm(Object(User))
+#7 [internal function]: UserController->actionEdit('2')
+#8 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('edit')
+#14 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/edit')
+#15 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/user/edit/2
+HTTP_REFERER=http://kr.dev/user/edit/2
+---
+2014/03/23 12:24:25 [error] [exception.CException] exception 'CException' with message 'Property "UserController.breadCrumbs" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(61): CComponent->__get('breadCrumbs')
+#1 /Users/ganesh/projects/framework/web/CBaseController.php(126): require('/Users/ganesh/p...')
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/ganesh/p...', Array, true)
+#3 /Users/ganesh/projects/framework/web/CController.php(784): CBaseController->renderFile('/Users/ganesh/p...', Array, true)
+#4 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(43): CController->render('edit', Array)
+#5 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(16): UserController->_renderForm(Object(User))
+#6 [internal function]: UserController->actionEdit('2')
+#7 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#8 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#9 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('edit')
+#13 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/edit')
+#14 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/user/edit/2
+HTTP_REFERER=http://kr.dev/user/
+---
+2014/03/23 12:27:39 [error] [exception.CException] exception 'CException' with message 'Property "User.right" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(145): CComponent->__get('right')
+#1 /Users/ganesh/projects/kr/web/protected/models/User.php(142): CActiveRecord->__get('right')
+#2 /Users/ganesh/projects/framework/base/CComponent.php(188): User->getRightName()
+#3 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(183): CComponent->__isset('rightName')
+#4 /Users/ganesh/projects/framework/web/helpers/CHtml.php(2135): CActiveRecord->__isset('rightName')
+#5 /Users/ganesh/projects/framework/zii/widgets/grid/CDataColumn.php(139): CHtml::value(Object(User), 'rightName')
+#6 /Users/ganesh/projects/framework/zii/widgets/grid/CGridColumn.php(151): CDataColumn->renderDataCellContent(0, Object(User))
+#7 /Users/ganesh/projects/framework/zii/widgets/grid/CGridView.php(616): CGridColumn->renderDataCell(0)
+#8 /Users/ganesh/projects/framework/zii/widgets/grid/CGridView.php(572): CGridView->renderTableRow(0)
+#9 /Users/ganesh/projects/framework/zii/widgets/grid/CGridView.php(482): CGridView->renderTableBody()
+#10 /Users/ganesh/projects/framework/zii/widgets/CBaseListView.php(167): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 /Users/ganesh/projects/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#13 /Users/ganesh/projects/framework/zii/widgets/CBaseListView.php(135): CBaseListView->renderContent()
+#14 /Users/ganesh/projects/framework/web/CBaseController.php(173): CBaseListView->run()
+#15 /Users/ganesh/projects/kr/web/protected/views/user/index.php(30): CBaseController->widget('zii.widgets.gri...', Array)
+#16 /Users/ganesh/projects/framework/web/CBaseController.php(126): require('/Users/ganesh/p...')
+#17 /Users/ganesh/projects/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/ganesh/p...', Array, true)
+#18 /Users/ganesh/projects/framework/web/CController.php(869): CBaseController->renderFile('/Users/ganesh/p...', Array, true)
+#19 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#20 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(54): CController->render('index', Array)
+#21 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#22 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#23 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#24 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('')
+#26 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#27 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/user
+HTTP_REFERER=http://kr.dev/user/edit/2
+---
+2014/03/23 12:29:08 [error] [php] Trying to get property of non-object (/Users/ganesh/projects/kr/web/protected/forms/user.php:9)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CForm.php(170): GForm->__construct()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(30): GForm->__construct()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(16): UserController->_renderForm()
+#3 unknown(0): UserController->actionEdit()
+#4 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#8 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#9 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/edit/12
+in /Users/ganesh/projects/kr/web/protected/forms/user.php (9)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (30)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (16)
+2014/03/23 12:30:54 [error] [php] require(/Users/ganesh/projects/kr/web/protected/forms/login.php): failed to open stream: No such file or directory (/Users/ganesh/projects/framework/web/form/CFormElement.php:120)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CForm.php(170): GForm->__construct()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(61): GForm->__construct()
+#2 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionLogin()
+#3 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#5 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#6 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#7 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/login
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (61)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/23 12:33:13 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "login".' in /Users/ganesh/projects/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(227): CComponent->__call('login', Array)
+#1 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(65): CActiveRecord->__call('login', Array)
+#2 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(65): User->login()
+#3 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionLogin()
+#4 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/23 12:37:22 [error] [php] Missing argument 1 for CWebUser::login(), called in /Users/ganesh/projects/kr/web/protected/models/User.php on line 150 and defined (/Users/ganesh/projects/framework/web/auth/CWebUser.php:227)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionLogin()
+#1 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#3 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#4 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#5 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/login
+in /Users/ganesh/projects/kr/web/protected/models/User.php (150)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (65)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/23 12:40:48 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.right" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/auth/CWebUser.php(146): CComponent->__get('right')
+#1 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): CWebUser->__get('right')
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(126): require('/Users/ganesh/p...')
+#3 /Users/ganesh/projects/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/ganesh/p...', Array, true)
+#4 /Users/ganesh/projects/framework/web/CController.php(784): CBaseController->renderFile('/Users/ganesh/p...', Array, true)
+#5 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(54): CController->render('index', Array)
+#6 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#7 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('index')
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/23 12:41:28 [error] [php] Undefined variable: id (/Users/ganesh/projects/kr/web/protected/components/WebUser.php:13)
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): WebUser->__get()
+#1 /Users/ganesh/projects/framework/web/CBaseController.php(126): require()
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(95): UserController->renderInternal()
+#3 /Users/ganesh/projects/framework/web/CController.php(784): UserController->renderFile()
+#4 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(54): UserController->render()
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#8 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#9 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (13)
+in /Users/ganesh/projects/kr/web/protected/views/layouts/main.php (48)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (54)
+2014/03/23 12:41:34 [error] [php] Trying to get property of non-object (/Users/ganesh/projects/kr/web/protected/components/WebUser.php:14)
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): WebUser->__get()
+#1 /Users/ganesh/projects/framework/web/CBaseController.php(126): require()
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(95): UserController->renderInternal()
+#3 /Users/ganesh/projects/framework/web/CController.php(784): UserController->renderFile()
+#4 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(54): UserController->render()
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#8 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#9 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (14)
+in /Users/ganesh/projects/kr/web/protected/views/layouts/main.php (48)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (54)
+2014/03/23 12:43:01 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.profile" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/auth/CWebUser.php(146): CComponent->__get('profile')
+#1 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): CWebUser->__get('profile')
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(126): require('/Users/ganesh/p...')
+#3 /Users/ganesh/projects/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/ganesh/p...', Array, true)
+#4 /Users/ganesh/projects/framework/web/CController.php(784): CBaseController->renderFile('/Users/ganesh/p...', Array, true)
+#5 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(54): CController->render('index', Array)
+#6 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#7 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Users/ganesh/projects/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('index')
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://kr.dev/user/login
+---
+2014/03/23 12:47:17 [error] [php] Undefined variable: This (/Users/ganesh/projects/kr/web/protected/components/WebUser.php:16)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/auth/CWebUser.php(146): WebUser->__get()
+#1 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): WebUser->__get()
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(126): require()
+#3 /Users/ganesh/projects/framework/web/CBaseController.php(95): UserController->renderInternal()
+#4 /Users/ganesh/projects/framework/web/CController.php(784): UserController->renderFile()
+#5 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(54): UserController->render()
+#6 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#7 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Users/ganesh/projects/framework/web/CController.php(286): UserController->runAction()
+#9 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (16)
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (21)
+in /Users/ganesh/projects/kr/web/protected/views/layouts/main.php (48)
+2014/03/23 12:52:16 [error] [php] strpos() expects parameter 1 to be string, array given (/Users/ganesh/projects/framework/web/CController.php:706)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(867): UserController->getViewFile()
+#1 /Users/ganesh/projects/framework/web/CController.php(782): UserController->renderPartial()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(95): UserController->render()
+#3 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionLogout()
+#4 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#6 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#8 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#9 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/logout
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (95)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/23 12:52:24 [error] [php] Trying to get property of non-object (/Users/ganesh/projects/kr/web/protected/components/WebUser.php:22)
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): WebUser->__get()
+#1 /Users/ganesh/projects/framework/web/CBaseController.php(126): require()
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(95): UserController->renderInternal()
+#3 /Users/ganesh/projects/framework/web/CController.php(784): UserController->renderFile()
+#4 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(67): UserController->render()
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#8 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#9 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/index
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (22)
+in /Users/ganesh/projects/kr/web/protected/views/layouts/main.php (48)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (67)
+2014/03/23 12:52:46 [error] [php] Trying to get property of non-object (/Users/ganesh/projects/kr/web/protected/components/WebUser.php:22)
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): WebUser->__get()
+#1 /Users/ganesh/projects/framework/web/CBaseController.php(126): require()
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(95): UserController->renderInternal()
+#3 /Users/ganesh/projects/framework/web/CController.php(784): UserController->renderFile()
+#4 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(67): UserController->render()
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#8 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#9 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/index
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (22)
+in /Users/ganesh/projects/kr/web/protected/views/layouts/main.php (48)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (67)
+2014/03/23 12:53:14 [error] [php] Trying to get property of non-object (/Users/ganesh/projects/kr/web/protected/components/WebUser.php:28)
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/views/layouts/main.php(48): WebUser->__get()
+#1 /Users/ganesh/projects/framework/web/CBaseController.php(126): require()
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(95): UserController->renderInternal()
+#3 /Users/ganesh/projects/framework/web/CController.php(784): UserController->renderFile()
+#4 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(67): UserController->render()
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#8 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#9 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/index
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (28)
+in /Users/ganesh/projects/kr/web/protected/views/layouts/main.php (48)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (67)
+2014/03/23 12:53:32 [error] [exception.CException] exception 'CException' with message 'Filter "adminOnly" is invalid. Controller "UserController" does not have the filter method "filteradminOnly".' in /Users/ganesh/projects/framework/web/filters/CInlineFilter.php:46
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(69): CInlineFilter::create(Object(UserController), 'adminOnly')
+#1 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain::create(Object(UserController), Object(CInlineAction), Array)
+#2 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('index')
+#4 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('user/index')
+#5 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/user/index
+HTTP_REFERER=http://kr.dev/user
+---
+2014/03/23 12:53:43 [error] [php] Trying to get property of non-object (/Users/ganesh/projects/kr/web/protected/components/WebUser.php:34)
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/controllers/UserController.php(15): WebUser->__get()
+#1 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): UserController->filterAdminOnly()
+#2 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#3 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#4 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#5 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#6 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/index
+in /Users/ganesh/projects/kr/web/protected/components/WebUser.php (34)
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (15)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/23 12:57:21 [error] [php] strpos() expects parameter 1 to be string, array given (/Users/ganesh/projects/framework/web/CController.php:746)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): UserController->filterAdminOnly()
+#1 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#2 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#3 /Users/ganesh/projects/framework/web/CController.php(265): UserController->runActionWithFilters()
+#4 /Users/ganesh/projects/framework/web/CWebApplication.php(282): UserController->run()
+#5 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/user
+in /Users/ganesh/projects/kr/web/protected/controllers/UserController.php (19)
+in /Users/ganesh/projects/kr/web/index.php (13)
+2014/03/23 13:06:51 [error] [php] require(/Users/ganesh/projects/kr/web/protected/forms/checklist.php): failed to open stream: No such file or directory (/Users/ganesh/projects/framework/web/form/CFormElement.php:120)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CForm.php(170): GForm->__construct()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(55): GForm->__construct()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(36): ChecklistController->_renderForm()
+#3 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): ChecklistController->actionAdd()
+#4 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): ChecklistController->runAction()
+#6 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(26): CFilterChain->run()
+#7 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterAdminOnly()
+#8 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(19): CFilterChain->run()
+#10 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterUserOnly()
+#11 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#13 /Users/ganesh/projects/framework/web/CController.php(265): ChecklistController->runActionWithFilters()
+#14 /Users/ganesh/projects/framework/web/CWebApplication.php(282): ChecklistController->run()
+#15 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/checklist/add
+in /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php (55)
+in /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php (36)
+in /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php (26)
+2014/03/23 13:08:10 [error] [exception.CException] exception 'CException' with message 'Property "Checklist.states" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(145): CComponent->__get('states')
+#1 /Users/ganesh/projects/kr/web/protected/forms/checklist.php(9): CActiveRecord->__get('states')
+#2 /Users/ganesh/projects/framework/web/form/CFormElement.php(120): require('/Users/ganesh/p...')
+#3 /Users/ganesh/projects/framework/web/form/CFormElement.php(48): CFormElement->configure('application.for...')
+#4 /Users/ganesh/projects/framework/web/form/CForm.php(170): CFormElement->__construct('application.for...', Object(ChecklistController))
+#5 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(55): CForm->__construct('application.for...', Object(Checklist))
+#6 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(36): ChecklistController->_renderForm(Object(Checklist))
+#7 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): ChecklistController->actionAdd()
+#8 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(26): CFilterChain->run()
+#11 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterAdminOnly(Object(CFilterChain))
+#12 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(19): CFilterChain->run()
+#14 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterUserOnly(Object(CFilterChain))
+#15 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#17 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('add')
+#19 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checklist/add')
+#20 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/checklist/add
+HTTP_REFERER=http://kr.dev/checklist
+---
+2014/03/23 13:15:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `checklist` `t` WHERE status>:ycp0 ORDER BY create_date > ASC LIMIT 10.
+in /Users/ganesh/projects/kr/web/protected/views/checklist/index.php (29)
+in /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php (79)
+in /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php (26)
+2014/03/23 13:15:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `checklist` `t` WHERE status>:ycp0 ORDER BY create_date > ASC LIMIT 10' in /Users/ganesh/projects/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Users/ganesh/projects/framework/web/CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /Users/ganesh/projects/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#5 /Users/ganesh/projects/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#6 /Users/ganesh/projects/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#7 /Users/ganesh/projects/framework/web/CBaseController.php(147): CGridView->init()
+#8 /Users/ganesh/projects/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#9 /Users/ganesh/projects/kr/web/protected/views/checklist/index.php(29): CBaseController->widget('zii.widgets.gri...', Array)
+#10 /Users/ganesh/projects/framework/web/CBaseController.php(126): require('/Users/ganesh/p...')
+#11 /Users/ganesh/projects/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/ganesh/p...', Array, true)
+#12 /Users/ganesh/projects/framework/web/CController.php(869): CBaseController->renderFile('/Users/ganesh/p...', Array, true)
+#13 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#14 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(79): CController->render('index', Array)
+#15 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): ChecklistController->actionIndex()
+#16 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(26): CFilterChain->run()
+#19 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterAdminOnly(Object(CFilterChain))
+#20 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(19): CFilterChain->run()
+#22 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterUserOnly(Object(CFilterChain))
+#23 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#25 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('index')
+#27 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checklist/index')
+#28 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#29 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/checklist/index
+HTTP_REFERER=http://kr.dev/checklist/index
+---
+2014/03/23 13:15:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'order clause'. The SQL statement executed was: SELECT * FROM `checklist` `t` WHERE status>:ycp0 ORDER BY create_date ASC LIMIT 10.
+in /Users/ganesh/projects/kr/web/protected/views/checklist/index.php (29)
+in /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php (79)
+in /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php (26)
+2014/03/23 13:15:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'order clause'. The SQL statement executed was: SELECT * FROM `checklist` `t` WHERE status>:ycp0 ORDER BY create_date ASC LIMIT 10' in /Users/ganesh/projects/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Users/ganesh/projects/framework/web/CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /Users/ganesh/projects/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#5 /Users/ganesh/projects/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#6 /Users/ganesh/projects/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#7 /Users/ganesh/projects/framework/web/CBaseController.php(147): CGridView->init()
+#8 /Users/ganesh/projects/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#9 /Users/ganesh/projects/kr/web/protected/views/checklist/index.php(29): CBaseController->widget('zii.widgets.gri...', Array)
+#10 /Users/ganesh/projects/framework/web/CBaseController.php(126): require('/Users/ganesh/p...')
+#11 /Users/ganesh/projects/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/ganesh/p...', Array, true)
+#12 /Users/ganesh/projects/framework/web/CController.php(869): CBaseController->renderFile('/Users/ganesh/p...', Array, true)
+#13 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#14 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(79): CController->render('index', Array)
+#15 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): ChecklistController->actionIndex()
+#16 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(26): CFilterChain->run()
+#19 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterAdminOnly(Object(CFilterChain))
+#20 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /Users/ganesh/projects/kr/web/protected/controllers/ChecklistController.php(19): CFilterChain->run()
+#22 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): ChecklistController->filterUserOnly(Object(CFilterChain))
+#23 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#25 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('index')
+#27 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checklist/index')
+#28 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#29 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/checklist/index
+HTTP_REFERER=http://kr.dev/checklist/index
+---
+2014/03/23 13:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "checkitem/add".' in /Users/ganesh/projects/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checkitem/add')
+#1 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/checkitem/add?list=1
+HTTP_REFERER=http://kr.dev/checklist/edit/1
+---
+2014/03/23 13:18:13 [error] [php] require(/Users/ganesh/projects/kr/web/protected/forms/checkitem.php): failed to open stream: No such file or directory (/Users/ganesh/projects/framework/web/form/CFormElement.php:120)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CForm.php(170): GForm->__construct()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(55): GForm->__construct()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(36): CheckitemController->_renderForm()
+#3 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): CheckitemController->actionAdd()
+#4 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CheckitemController->runAction()
+#6 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(26): CFilterChain->run()
+#7 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterAdminOnly()
+#8 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(19): CFilterChain->run()
+#10 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterUserOnly()
+#11 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#13 /Users/ganesh/projects/framework/web/CController.php(265): CheckitemController->runActionWithFilters()
+#14 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CheckitemController->run()
+#15 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/checkitem/add?list=1
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (55)
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (36)
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (26)
+2014/03/23 13:18:52 [error] [php] require(/Users/ganesh/projects/kr/web/protected/forms/checkitem.php): failed to open stream: No such file or directory (/Users/ganesh/projects/framework/web/form/CFormElement.php:120)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CForm.php(170): GForm->__construct()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(56): GForm->__construct()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(38): CheckitemController->_renderForm()
+#3 unknown(0): CheckitemController->actionAdd()
+#4 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CheckitemController->runAction()
+#8 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(26): CFilterChain->run()
+#9 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterAdminOnly()
+#10 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(19): CFilterChain->run()
+#12 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterUserOnly()
+#13 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#15 /Users/ganesh/projects/framework/web/CController.php(265): CheckitemController->runActionWithFilters()
+#16 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CheckitemController->run()
+#17 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/checkitem/add?list=1
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (56)
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (38)
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (26)
+2014/03/23 13:20:05 [error] [exception.CException] exception 'CException' with message 'Property "Checkitem.states" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(145): CComponent->__get('states')
+#1 /Users/ganesh/projects/kr/web/protected/forms/checkitem.php(8): CActiveRecord->__get('states')
+#2 /Users/ganesh/projects/framework/web/form/CFormElement.php(120): require('/Users/ganesh/p...')
+#3 /Users/ganesh/projects/framework/web/form/CFormElement.php(48): CFormElement->configure('application.for...')
+#4 /Users/ganesh/projects/framework/web/form/CForm.php(170): CFormElement->__construct('application.for...', Object(CheckitemController))
+#5 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(56): CForm->__construct('application.for...', Object(Checkitem))
+#6 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(38): CheckitemController->_renderForm(Object(Checkitem))
+#7 [internal function]: CheckitemController->actionAdd('1')
+#8 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CheckitemController), Array)
+#9 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CheckitemController), Object(ReflectionMethod), Array)
+#10 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(26): CFilterChain->run()
+#13 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterAdminOnly(Object(CFilterChain))
+#14 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(19): CFilterChain->run()
+#16 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterUserOnly(Object(CFilterChain))
+#17 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#19 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('add')
+#21 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checkitem/add')
+#22 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/checkitem/add?list=1
+HTTP_REFERER=http://kr.dev/checklist/edit/1
+---
+2014/03/23 13:20:31 [error] [exception.CException] exception 'CException' with message 'CheckitemController cannot find the requested view "edit".' in /Users/ganesh/projects/framework/web/CController.php:878
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('edit', Array, true)
+#1 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(69): CController->render('edit', Array)
+#2 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(38): CheckitemController->_renderForm(Object(Checkitem))
+#3 [internal function]: CheckitemController->actionAdd('1')
+#4 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CheckitemController), Array)
+#5 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CheckitemController), Object(ReflectionMethod), Array)
+#6 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(26): CFilterChain->run()
+#9 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterAdminOnly(Object(CFilterChain))
+#10 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(19): CFilterChain->run()
+#12 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterUserOnly(Object(CFilterChain))
+#13 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#15 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('add')
+#17 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checkitem/add')
+#18 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/checkitem/add?list=1
+HTTP_REFERER=http://kr.dev/checklist/edit/1
+---
+2014/03/23 13:21:58 [error] [exception.CException] exception 'CException' with message 'Property "CheckitemController.model" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/views/checkitem/edit.php(6): CComponent->__get('model')
+#1 /Users/ganesh/projects/framework/web/CBaseController.php(126): require('/Users/ganesh/p...')
+#2 /Users/ganesh/projects/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/ganesh/p...', Array, true)
+#3 /Users/ganesh/projects/framework/web/CController.php(869): CBaseController->renderFile('/Users/ganesh/p...', Array, true)
+#4 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('edit', Array, true)
+#5 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(69): CController->render('edit', Array)
+#6 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(38): CheckitemController->_renderForm(Object(Checkitem))
+#7 [internal function]: CheckitemController->actionAdd('1')
+#8 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CheckitemController), Array)
+#9 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CheckitemController), Object(ReflectionMethod), Array)
+#10 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(26): CFilterChain->run()
+#13 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterAdminOnly(Object(CFilterChain))
+#14 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(19): CFilterChain->run()
+#16 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterUserOnly(Object(CFilterChain))
+#17 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#19 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('add')
+#21 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checkitem/add')
+#22 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/checkitem/add?list=1
+HTTP_REFERER=http://kr.dev/checklist/edit/1
+---
+2014/03/23 13:22:12 [error] [php] Trying to get property of non-object (/Users/ganesh/projects/kr/web/protected/views/checkitem/edit.php:6)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(869): CheckitemController->renderFile()
+#1 /Users/ganesh/projects/framework/web/CController.php(782): CheckitemController->renderPartial()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(69): CheckitemController->render()
+#3 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(38): CheckitemController->_renderForm()
+#4 unknown(0): CheckitemController->actionAdd()
+#5 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#6 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CheckitemController->runAction()
+#9 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(26): CFilterChain->run()
+#10 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterAdminOnly()
+#11 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php(19): CFilterChain->run()
+#13 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): CheckitemController->filterUserOnly()
+#14 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#15 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#16 /Users/ganesh/projects/framework/web/CController.php(265): CheckitemController->runActionWithFilters()
+#17 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CheckitemController->run()
+#18 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#19 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/checkitem/add?list=1
+in /Users/ganesh/projects/kr/web/protected/views/checkitem/edit.php (6)
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (69)
+in /Users/ganesh/projects/kr/web/protected/controllers/CheckitemController.php (38)
+2014/03/23 13:32:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "checklist".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('checklist')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('checklist')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checklist/check...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/checklist/checklist
+HTTP_REFERER=http://kr.dev/checklist/index
+---
+2014/03/23 13:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "checklist".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('checklist')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('checklist')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checklist/check...')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/checklist/checklist
+HTTP_REFERER=http://kr.dev/checklist/index
+---
+2014/03/23 13:35:32 [error] [exception.CException] exception 'CException' with message 'TicketController cannot find the requested view "index".' in /Users/ganesh/projects/framework/web/CController.php:878
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(67): CController->render('index', Array)
+#2 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): TicketController->actionIndex()
+#3 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#6 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly(Object(CFilterChain))
+#7 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#9 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('')
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('ticket')
+#12 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/ticket
+---
+2014/03/23 13:37:33 [error] [php] require(/Users/ganesh/projects/kr/web/protected/forms/Ticket.php): failed to open stream: No such file or directory (/Users/ganesh/projects/framework/web/form/CFormElement.php:120)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CForm.php(170): GForm->__construct()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(43): GForm->__construct()
+#2 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(24): TicketController->_renderForm()
+#3 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): TicketController->actionAdd()
+#4 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): TicketController->runAction()
+#6 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#7 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly()
+#8 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/ganesh/projects/framework/web/CController.php(265): TicketController->runActionWithFilters()
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(282): TicketController->run()
+#12 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/ticket/add
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (43)
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (24)
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (18)
+2014/03/23 13:38:51 [error] [exception.CException] exception 'CException' with message 'TicketController cannot find the requested view "edit".' in /Users/ganesh/projects/framework/web/CController.php:878
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(782): CController->renderPartial('edit', Array, true)
+#1 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(56): CController->render('edit', Array)
+#2 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(24): TicketController->_renderForm(Object(Ticket))
+#3 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): TicketController->actionAdd()
+#4 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#7 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly(Object(CFilterChain))
+#8 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#10 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('add')
+#12 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('ticket/add')
+#13 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/ticket/add
+HTTP_REFERER=http://kr.dev/ticket
+---
+2014/03/23 13:41:55 [error] [exception.CException] exception 'CException' with message 'Checklist and its behaviors do not have a method or closure named "listAll".' in /Users/ganesh/projects/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(227): CComponent->__call('listAll', Array)
+#1 /Users/ganesh/projects/kr/web/protected/forms/ticket.php(9): CActiveRecord->__call('listAll', Array)
+#2 /Users/ganesh/projects/kr/web/protected/forms/ticket.php(9): Checklist->listAll()
+#3 /Users/ganesh/projects/framework/web/form/CFormElement.php(120): require('/Users/ganesh/p...')
+#4 /Users/ganesh/projects/framework/web/form/CFormElement.php(48): CFormElement->configure('application.for...')
+#5 /Users/ganesh/projects/framework/web/form/CForm.php(170): CFormElement->__construct('application.for...', Object(TicketController))
+#6 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(43): CForm->__construct('application.for...', Object(Ticket))
+#7 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(24): TicketController->_renderForm(Object(Ticket))
+#8 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(49): TicketController->actionAdd()
+#9 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#12 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly(Object(CFilterChain))
+#13 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#15 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('add')
+#17 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('ticket/add')
+#18 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/ticket/add
+HTTP_REFERER=http://kr.dev/ticket
+---
+2014/03/23 13:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('list')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('list')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('checkitem/list')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/checkitem/list
+HTTP_REFERER=http://kr.dev/ticket/add
+---
+2014/03/23 13:54:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /Users/ganesh/projects/framework/web/CController.php:483
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/CController.php(270): CController->missingAction('list')
+#1 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('list')
+#2 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('ticket/list')
+#3 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ticket/list
+HTTP_REFERER=http://kr.dev/ticket/add
+---
+2014/03/23 14:15:20 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/ganesh/projects/kr/web/protected/models/TicketCheck.php:132) (/Users/ganesh/projects/framework/web/CHttpRequest.php:803)
+Stack trace:
+#0 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(50): TicketController->redirect()
+#1 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(31): TicketController->_renderForm()
+#2 unknown(0): TicketController->actionEdit()
+#3 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#4 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#5 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): TicketController->runAction()
+#7 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#8 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly()
+#9 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/ganesh/projects/framework/web/CController.php(265): TicketController->runActionWithFilters()
+#12 /Users/ganesh/projects/framework/web/CWebApplication.php(282): TicketController->run()
+#13 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/ticket/edit/1
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (50)
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (31)
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (18)
+2014/03/23 14:16:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kr`.`ticket_check`, CONSTRAINT `ticket_check_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)). The SQL statement executed was: INSERT INTO `ticket_check` (`ticket_id`, `checkitem_id`, `user_id`, `created_date`) VALUES (:yp0, :yp1, :yp2, NOW()).
+in /Users/ganesh/projects/kr/web/protected/models/TicketCheck.php (132)
+in /Users/ganesh/projects/kr/web/protected/models/TicketCheck.php (120)
+in /Users/ganesh/projects/kr/web/protected/models/Ticket.php (133)
+2014/03/23 14:16:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`kr`.`ticket_check`, CONSTRAINT `ticket_check_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)). The SQL statement executed was: INSERT INTO `ticket_check` (`ticket_id`, `checkitem_id`, `user_id`, `created_date`) VALUES (:yp0, :yp1, :yp2, NOW())' in /Users/ganesh/projects/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Users/ganesh/projects/kr/web/protected/models/TicketCheck.php(132): CActiveRecord->save()
+#3 /Users/ganesh/projects/kr/web/protected/models/TicketCheck.php(120): TicketCheck->upsert(Array, Array)
+#4 /Users/ganesh/projects/kr/web/protected/models/Ticket.php(133): TicketCheck->updateChecks('1', Array, '383363')
+#5 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1126): Ticket->afterSave()
+#6 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(806): CActiveRecord->update(NULL)
+#7 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(48): CActiveRecord->save()
+#8 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(31): TicketController->_renderForm(Object(Ticket))
+#9 [internal function]: TicketController->actionEdit('1')
+#10 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#11 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TicketController), Object(ReflectionMethod), Array)
+#12 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#15 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly(Object(CFilterChain))
+#16 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#18 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('edit')
+#20 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('ticket/edit')
+#21 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ticket/edit/1
+HTTP_REFERER=http://kr.dev/ticket/edit/1
+---
+2014/03/23 14:17:29 [error] [php] Object of class TicketCheck could not be converted to int (/Users/ganesh/projects/framework/web/helpers/CHtml.php:1052)
+Stack trace:
+#0 /Users/ganesh/projects/framework/web/form/CFormInputElement.php(218): activeCheckBoxList()
+#1 /Users/ganesh/projects/framework/web/form/CFormInputElement.php(180): CFormInputElement->renderInput()
+#2 /Users/ganesh/projects/kr/web/protected/components/GForm.php(53): CFormInputElement->render()
+#3 /Users/ganesh/projects/framework/web/form/CForm.php(497): GForm->renderElement()
+#4 /Users/ganesh/projects/framework/web/form/CForm.php(481): GForm->renderElements()
+#5 /Users/ganesh/projects/framework/web/form/CForm.php(397): GForm->renderBody()
+#6 /Users/ganesh/projects/framework/web/form/CFormElement.php(61): GForm->render()
+#7 /Users/ganesh/projects/kr/web/protected/views/ticket/edit.php(9): GForm->__toString()
+#8 /Users/ganesh/projects/framework/web/CBaseController.php(126): require()
+#9 /Users/ganesh/projects/framework/web/CBaseController.php(95): TicketController->renderInternal()
+#10 /Users/ganesh/projects/framework/web/CController.php(869): TicketController->renderFile()
+#11 /Users/ganesh/projects/framework/web/CController.php(782): TicketController->renderPartial()
+#12 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(56): TicketController->render()
+#13 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(31): TicketController->_renderForm()
+#14 unknown(0): TicketController->actionEdit()
+#15 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#16 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#17 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): TicketController->runAction()
+#19 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#20 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly()
+#21 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#22 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#23 /Users/ganesh/projects/framework/web/CController.php(265): TicketController->runActionWithFilters()
+#24 /Users/ganesh/projects/framework/web/CWebApplication.php(282): TicketController->run()
+#25 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#26 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /Users/ganesh/projects/kr/web/index.php(13): CWebApplication->run()
+REQUEST_URI=/ticket/edit/1
+in /Users/ganesh/projects/kr/web/protected/components/GForm.php (53)
+in /Users/ganesh/projects/kr/web/protected/views/ticket/edit.php (9)
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (56)
+2014/03/23 14:19:42 [error] [exception.CException] exception 'CException' with message 'Property "TicketCheck.checklist_id" is not defined.' in /Users/ganesh/projects/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(145): CComponent->__get('checklist_id')
+#1 /Users/ganesh/projects/kr/web/protected/models/Ticket.php(55): CActiveRecord->__get('checklist_id')
+#2 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1866): Ticket->afterFind()
+#3 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1351): CActiveRecord->populateRecord(Array)
+#4 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1486): CActiveRecord->query(Object(CDbCriteria))
+#5 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(30): CActiveRecord->findByPk('1')
+#6 [internal function]: TicketController->actionEdit('1')
+#7 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#8 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TicketController), Object(ReflectionMethod), Array)
+#9 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#12 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly(Object(CFilterChain))
+#13 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#15 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('edit')
+#17 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('ticket/edit')
+#18 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/ticket/edit/1
+HTTP_REFERER=http://kr.dev/ticket/edit/1
+---
+2014/03/23 14:23:25 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'checklist_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `checkitem` `t` WHERE (checklist_id=:ycp3) AND (status>:ycp4).
+in /Users/ganesh/projects/kr/web/protected/models/Ticket.php (149)
+in /Users/ganesh/projects/kr/web/protected/models/Ticket.php (137)
+in /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php (48)
+2014/03/23 14:23:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'checklist_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `checkitem` `t` WHERE (checklist_id=:ycp3) AND (status>:ycp4)' in /Users/ganesh/projects/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Users/ganesh/projects/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 /Users/ganesh/projects/kr/web/protected/models/Ticket.php(149): CActiveRecord->count(Object(CDbCriteria))
+#3 /Users/ganesh/projects/kr/web/protected/models/Ticket.php(137): Ticket->setStatus()
+#4 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(1119): Ticket->beforeSave()
+#5 /Users/ganesh/projects/framework/db/ar/CActiveRecord.php(806): CActiveRecord->update(NULL)
+#6 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(48): CActiveRecord->save()
+#7 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(31): TicketController->_renderForm(Object(Ticket))
+#8 [internal function]: TicketController->actionEdit('1')
+#9 /Users/ganesh/projects/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#10 /Users/ganesh/projects/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TicketController), Object(ReflectionMethod), Array)
+#11 /Users/ganesh/projects/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /Users/ganesh/projects/kr/web/protected/controllers/TicketController.php(18): CFilterChain->run()
+#14 /Users/ganesh/projects/framework/web/filters/CInlineFilter.php(58): TicketController->filterUserOnly(Object(CFilterChain))
+#15 /Users/ganesh/projects/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /Users/ganesh/projects/framework/web/CController.php(291): CFilterChain->run()
+#17 /Users/ganesh/projects/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /Users/ganesh/projects/framework/web/CWebApplication.php(282): CController->run('edit')
+#19 /Users/ganesh/projects/framework/web/CWebApplication.php(141): CWebApplication->runController('ticket/edit')
+#20 /Users/ganesh/projects/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /Users/ganesh/projects/kr/web/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/ticket/edit/1
+HTTP_REFERER=http://kr.dev/ticket/edit/1
+---
